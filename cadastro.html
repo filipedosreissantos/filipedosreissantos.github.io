@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="_css/cadastro.css"/>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+
+        <nav>
+          <ul class="menu">
+            <li>Usuários</li>
+            <a href="cadastro.html"><li>Cadastro</li></a>
+            <a href="consultas.php"><li>Consultas</li></a>
+            <a href="login.html"><li>Sair</li></a>
+          </ul>
+        </nav>
+
+        <section>
+          <h1>Cadastro de Usuários</h1><hr><br>
+
+          <form action="cadastro.php" method="post">
+            <input type="submit" class="btn salvar" value="Salvar">
+            <input type="reset" class="btn limpar"  value="Limpar">
+            <input type="button" class="btn excluir" value="Excluir"><br><br>
+            <fieldset>
+              <legend>Preencha as informações</legend>
+              Nome completo:<br>
+              <input type="text" name="nome" class="campo" placeholder="Nome completo" maxlength="70" required autofocus>
+              <br>Nome de Usuário:<br>
+              <input type="text" name="usuario" class="campo" placeholder="Nome de usuário" maxlength="10" required><br>
+              E-mail:<br>
+              <input type="email" name="email" class="campo" placeholder="nome@exemplo.com" maxlength="40" required><br>
+            </fieldset>
+            </form>
+        </section>
+
+      </div>
+    </section>
+  </body>
+</html>

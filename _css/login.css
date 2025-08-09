@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana;
+  font-size: 100%;
+  background-color: #222;
+}
+
+form{
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 100px;
+  background-color: #ff80bf;
+  text-align: center;
+}
+
+.campo{
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+a{
+  color: black;
+
+}

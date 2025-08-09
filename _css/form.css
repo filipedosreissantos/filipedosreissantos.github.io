@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+.error{
+  color: #ff0000;
+}
+form, form#idd{
+    width: 500px;
+    margin: auto;
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input:hover, textarea:hover{
+   background-color: #dddddd;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 15pt;
+    color: #808080;
+}
+
+fieldset{
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sex{
+    width: 150px;
+}
+
+fieldset#identificacion{
+    background: url('../_imagens/icone-mensagem.png') no-repeat 95% 95%;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #666666;
+    text-align: right;
+}
