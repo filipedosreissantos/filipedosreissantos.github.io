@@ -99,7 +99,7 @@
                 <span class="error">*Obligatorio</span><br/>
                 Nombre: <input type="text" name="nombre" id="tunombre" size="20" maxlenght"20" placeholder="Nombre..."value="<?php echo $nombre;?>"/><span class="error">* <?php echo $nombreError;?></span>
                 <br/><br/>
-                E-mail: <input type"email" name="email" id="femail" value="<?php echo $email;?>"/><span class="error">* <?php echo $emailError;?></span>
+                E-mail: <input type="email" name="email" id="femail" value="<?php echo $email;?>"/><span class="error">* <?php echo $emailError;?></span>
                 <br/><br/>
                 Fecha de Nacimiento: <input type="date" name="fnasc" id="fecha">
                 <fieldset id="sex">
