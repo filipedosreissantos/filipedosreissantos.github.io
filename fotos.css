@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+ul#galeriafotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 115px;
+    overflow: hidden;
+}
+
+ul#galeriafotos li{
+    text-align: right;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    list-style-type: none;
+}
+
+ul#galeriafotos li:hover{
+    transform: scale(1.5);
+    transition: all 0.3s ease-in;
+}
+
+ul#galeriafotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 45px;
+    padding: 5px;
+    font-size: 13pt;
+}
+
+ul#galeriafotos li:hover span{
+    opacity: 1;
+}
+
+ul#galeriafotos li#fotos001{
+    background: url('../_imagens/galeria001.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 500px 281px;
+}
+
+ul#galeriafotos li#fotos001:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeriafotos li#fotos002{
+    background: url('../_imagens/galeria002.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 700px 400px;
+}
+
+ul#galeriafotos li#fotos002:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;    
+}
+
+ul#galeriafotos li#fotos003{
+    background: url('../_imagens/galeria003.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-color: white; 
+    background-size: 500px 333px;
+}
+
+ul#galeriafotos li#fotos003:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeriafotos li#fotos004{
+    background: url('../_imagens/galeria004.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 500px 331px;
+}
+
+ul#galeriafotos li#fotos004:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeriafotos li#fotos005{
+    background: url('../_imagens/galeria005.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 700px 525px;
+}
+
+ul#galeriafotos li#fotos005:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeriafotos li#fotos006{
+    background: url('../_imagens/galeria006.png') no-repeat;
+    background-position: 50% 50%;
+    background-color: white;    
+    background-size: 500px 323px;
+    
+}
+
+ul#galeriafotos li#fotos006:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

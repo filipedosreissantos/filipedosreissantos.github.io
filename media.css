@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+div#midi{
+    margin: auto;
+    height: 580px;
+    width: 900px;
+    background: url('../_imagens/tv.png') no-repeat;
+    padding: 100px;
+}
+
+video#vid{
+    position: relative;
+    display: block;
+    width: 892px;
+    right: 97px;
+    bottom: 91.5px;    
+}

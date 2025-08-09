@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+
+section#contenido{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+iframe#frame-specs{
+    margin-left: 430px;
+    width: 480px;
+    height: 300px;
+    border: none;
+    overflow-y: hidden;
+}
