@@ -8,7 +8,7 @@ div#midi{
     margin: auto;
     height: 580px;
     width: 900px;
-    background: url('../_imagens/tv.png') no-repeat;
+    background: url('tv.png') no-repeat;
     padding: 100px;
 }
 
